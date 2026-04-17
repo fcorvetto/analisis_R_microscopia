@@ -21,7 +21,7 @@ library(ggeffects)
 # =========================
 # IMPORTAR DATOS
 # =========================
-Datos <- read_excel("02.05.23 mSmaug WT y SM Ba, Chx, Met y SAG para r.xlsx")
+Datos <- read_excel("02.05.23 mSmaug WT y SM Ba, Chx, Met y SAG para r.xlsx") # Modificar según tu sistema
 
 Datos <- Datos %>%
   mutate(
